@@ -1,0 +1,45 @@
+{
+    "Picture" : [{
+        "name" : "Prau",
+        "img" : "https://dieng.travel/wp-content/uploads/2020/12/Sunrise-Mount-Prau-by-Ade-Chrisnadhi.jpg",
+        "location" : "Dieng, Jawa Tengah"
+    },{
+        "name" : "Merapi",
+        "img" : "http://travelinkmagz.com/wp-content/uploads/2018/10/DIY-Gunung-Merapi_1920x1080px_1.jpg",
+        "location" : "Magelang, Jawa Tengah"
+    },{
+        "name" : "Merbabu",
+        "img" : "https://www.teahub.io/photos/full/145-1456712_gunung-merbabu-hd.jpg",
+        "location" : "Boyolali, Jawa Tengah"
+    },{
+        "name" : "Gede Pangrango",
+        "img" : "https://i.pinimg.com/originals/16/f6/31/16f63156ea9b229055f88b838713cf94.jpg",
+        "location" : "Bogor, Jawa Barat"
+    },{
+        "name" : "Semeru",
+        "img" : "https://images.unsplash.com/photo-1517807289433-f0282e362596",
+        "location" : "Lumajang, Jawa Timur"
+    },{
+        "name" : "Lawu",
+        "img" : "https://www.tagar.id/Asset/uploads/880198-gunung-lawu.jpeg",
+        "location" : "Karanganyar, Jawa Tengah"
+    },{
+        "name" : "Argopuro",
+        "img" : "https://assets.promediateknologi.com/crop/0x0:0x0/0x0/photo/ketiknews/original/211014125851-Danau.jpg",
+        "location" : "Probolinggo, Jawa Timur"
+    },{
+        "name" : "Rinjani",
+        "img" : "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/12/937900083.jpg",
+        "location" : "Lombok Timur, NTB"
+    },{
+        "name" : "Papandayan",
+        "img" : "https://campatour.com/wp-content/uploads/2021/06/Pendakian-Gunung-Papandayan.jpg",
+        "location" : "Garut, Jawa Barat"
+    },{
+        "name" : "Raung",
+        "img" : "https://cdn-image.hipwee.com/wp-content/uploads/2016/08/hipwee-raung.jpg",
+        "location" : "Bodowoso, Jawa Timur"
+    }
+        
+]
+}

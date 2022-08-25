@@ -1,0 +1,182 @@
+
+// // /* ELEMENT SELECTOR */
+// // h1 {
+// //     color: red;
+// //     font-family: sans-serif;
+// //     font-size: 20px;
+// // }
+
+// // /* ID SELECTOR */
+// // #heading2 {
+// //     color: blue;
+// //     font-weight: 800;
+// //     background-color: antiquewhite;
+// // }
+
+// //Mendefinisikan variable pada sass
+// $font-stack: 'Rubik Iso';
+// $font-secondary: 'Courgette';
+// $primary-color: #42a5f5;
+// $secondary-color: #ab47bc;
+// $enigma-primary-color: #233d90;
+// $margin-top: 20px;
+// $margin-bottom: 50px;
+// $margin-left: 50px;
+// $margin-right: 50px;
+
+// // CSS Simple Selector Universal *
+// * {
+//     margin: 0; // Top Right Bottom Left
+//     padding: 0;
+// }
+
+// .center {
+//     text-align: center;
+//     color: #fff;
+// }
+
+// .large {
+//     font-size: 5rem;
+// }
+
+// .text-primary {
+//     color: $primary-color;
+//     font-family: $font-secondary;
+// }
+
+// //CSS Simple Selector
+// h2.large {
+//     font-size: 2rem;
+// }
+
+
+
+// // CSS Combinators - Child
+// h1 > span {
+//     color: $secondary-color;
+// }
+
+// header {
+//     color: #fff;
+//     padding: 35px 0;
+//     margin: auto;
+//     // styling
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+// .navbar-logo {
+//     font-size: 2rem;
+//     color: rgb(211, 231, 122);
+//     margin-left: 20px;
+//     cursor: pointer;
+//     font-family: $font-stack;
+// }
+
+// .navbar ul li {
+//     list-style: none;
+//     float: left;
+//     margin: 0 20px;
+//     position: relative;
+// }
+
+// .navbar ul li a {
+//     text-decoration: none;
+//     color: #fff;
+//     text-transform: uppercase; //memaksa jadi uppercase
+// }
+
+// // CSS Pseudo-classes
+// .navbar ul li a:hover {
+//     text-decoration: none;
+//     color: yellow;
+// }
+
+// // Width belum terbentuk
+// .navbar ul li::after {
+//     content: '';
+//     height: 3px;
+//     width: 0;
+//     background: yellow;
+//     position: absolute;
+//     left: 0;
+//     bottom: -5px;
+//     transition: 0.5s;
+// }
+
+// // Saat di hover, akan membentuk width 100%
+// .navbar ul li:hover:after {
+//     width: 100%;
+// }
+
+
+// section {
+//     margin-top: 5%;
+// }
+
+// .content {
+//     width: 100%;
+//     position: absolute;
+//     top: 50%;
+// }
+
+// .content p {
+//     text-align: center;
+//     margin: 20px auto;
+//     line-height: 25px;
+//     font-weight: 100;
+//     font-size: 1.5rem;
+// }
+
+// .content form {
+//     width: 100%;
+//     position: absolute;
+//     top: 50px;
+// }
+// .wrapper {
+//     width: 100%;
+//     height: 100vh;
+//     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("https://images.unsplash.com/photo-1619410283995-43d9134e7656");
+//     background-size: cover;
+//     background-position: center;
+// }
+
+// .container {
+//     box-sizing: border-box;
+// }
+
+// .row {
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .card {
+//     width: 50%;
+//     height: 30vh;
+// }
+// .card>img {
+//     width: 200px;
+
+// }
+
+// .card-body h4 p {
+//     font-size: 1rem;
+//     text-align: center;
+//     line-height: 30px;
+// }
+
+// footer {
+//     background-color: $enigma-primary-color;
+//     width: 100%;
+//     text-align: center;
+//     color: $primary-color;
+//     bottom: 0;
+//     padding: 15px;
+//     margin-top: 50px;
+// }
+
+// footer a {
+//     text-decoration: none;
+//     color: #fff;
+// }

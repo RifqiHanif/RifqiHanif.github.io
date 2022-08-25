@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Fredoka+One&family=Offside&family=Rubik+Iso&display=swap');
+$font-stack: 'Rubik Iso';
+$font-secondary: 'Courgette';
+$another-font: 'Bebas Neue';
+$font-offside: 'Offside';
+$font-default: 'Calibri';
+$primary: #5ab9a7;
+$font-stack: sans-serif;
+$primary-color: #42a5f5;
+$secondary-color: #ab47bc;
+$enigma-primary-color: #005689;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// .wrapper {
+//   // width: 100%;
+//   // height: 100vh;
+// }
+
+header {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.75));
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sticky {
+  // position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: $font-offside;
+    margin: 5px 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    font-family: $font-offside;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; //memaksa jadi uppercase
+}
+
+// CSS Pseudo-classes
+// .navbar ul li a:hover {
+//     text-decoration: none;
+//     color: yellow;
+// }
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: #ccc;
+    background-color: #818491;
+    border-radius: 5px;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+}
+
+.bio {
+  height: 1100px;
+  flex: 3;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgb(71, 67, 67));
+  .img-wrapper {
+    img {
+      width: 250px;
+      border-radius: 10px;
+    }
+  }
+  .contact {
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+      margin: 20px 0;
+
+      color: white;
+    }
+    .contact-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .icon-bio {
+        i {
+          font-size: 20px;
+          color: white;
+        }
+      }
+      .value-bio {
+        font-size: 18px;
+        color: white;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+    .expertise-wrapper {
+      ul {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        li {
+          margin-left: -15px;
+          margin-bottom: 26px;
+        }
+      }
+    }
+  }
+}
+
+.profile {
+  background: rgb(247, 247, 247);
+  height: 100vh;
+  flex: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  .about-me {
+    font-family: "Poppins", sans-serif;
+    .name {
+      h1,
+      h2 {
+        text-align: center;
+        margin: 0;
+        line-height: 60px;
+      }
+      h1 {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 35px;
+      }
+    }
+    .desc {
+      padding: 40px;
+      p {
+        font-size: 18px;
+        line-height: 38px;
+        text-align: justify;
+      }
+    }
+  }
+  .line {
+    width: 80%;
+    height: 1px;
+    background: black;
+  }
+  .work-experince {
+    width: 93%;
+    h1 {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .experience {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      .company {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .year {
+        font-weight: bold;
+
+        font-size: 25px;
+      }
+    }
+    .title {
+      font-size: 24px;
+    }
+    .job-desc {
+      ul {
+        li {
+          font-size: 20px;
+          margin-bottom: 10px;
+          text-align: justify;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),black);
+    width: 100%;
+    text-align: center;
+    color: $primary-color;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
